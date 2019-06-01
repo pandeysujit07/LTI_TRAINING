@@ -37,7 +37,7 @@ public class Customer {
 		   System.out.println(email);
 		   System.out.println(address.getCity());
 		   System.out.println(address.getState());
-		   System.out.println(address.getPincode());
+		   System.out.println(address.getPincode()); 
 	   }
 
 }
