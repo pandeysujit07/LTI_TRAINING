@@ -64,6 +64,20 @@ public class Employee {
 	}
 	
 
+	public void displayInfo() {
+		
+		System.out.println("Empno"+empno);
+		System.out.println("Name"+name);
+		System.out.println("Pass no"+passport.getIssueDate());
+		System.out.println("ExpiryDate is" +passport.getExpiryDate());
+	
+		System.out.println("Aadhar card no"+aadharCard.getAadharNo());
+		System.out.println("Aadhar card name"+aadharCard.getName() );
+		System.out.println("address"+aadharCard.getAddress());
+		
+		
+		
+	}
 	
 
 }
