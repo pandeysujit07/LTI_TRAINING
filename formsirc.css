@@ -1,0 +1,50 @@
+label{
+
+    display: block;
+
+}
+#regform{
+
+    display: block;
+
+    border-radius: 5px;
+    border: 5px #ddd solid;
+    background-color: #fff;
+    width: 350px;
+    margin: auto;
+    padding-top:50px;
+    padding-right:50px;
+    padding-left:30px;
+    padding-bottom:30px; 
+    
+
+
+
+}
+label{
+    display: block;
+    padding-top:10px;
+
+    padding-bottom:10px; 
+}
+
+input{
+    display: block;
+    padding-bottom: 10px;
+    width: 90%;
+    outline-color: chartreuse;
+}
+body{
+    background-image:url("img1.jpg");
+}
+
+button{
+    padding-top:10px;
+    padding-right:50px;
+    padding-left:50px;
+    display: block;
+    color: blue;
+    background-color: orange; 
+    width: 60%;
+    margin-top: 5%;
+}

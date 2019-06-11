@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+ <form>
+    
+    NAME:  <input type="text" id="user_input" /> <!---displaying the textfield-->
+    <br/>
+    DOJ: <input type="date" id="user1_input" / >
+    <br/>
+    Email: <input type="email" id="user3_input" />
+    <br/>
+    <button type="button" onclick="showInput()">submit</button>
+       
+</form>  
+   
+    <label>Your input: </label>
+    <p><span id='display'></span></p>
+    
+     
+
+ <script language="JavaScript">
+
+    function showInput() {
+        document.getElementById('display').innerHTML = 
+                    document.getElementById("user_input","user1_input","user3_input").value;
+       
+    }
+
+</script>
+     
+</body>
+</html>
